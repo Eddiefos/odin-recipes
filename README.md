@@ -1,0 +1,1 @@
+This is a project made to practice all of the HTML knowledge i have aquired so using The Odin Project. I will be making a webite that conists of a main index page which will have links to a few recipies. I will also test my command line skills.
