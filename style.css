@@ -1,0 +1,132 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-size: 24px;
+    color: #008C45;
+    margin-top: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.recipe-list li {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recipe-list li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-list a {
+    display: block;
+    padding: 24px;
+    text-decoration: none;
+    color: #CD212A;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.recipe-list a:hover {
+    color: #A01B22;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+ul {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #008C45;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+ol {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #008C45;
+}
+
+ol li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+a[href="../index.html"] {
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    padding: 12px 24px;
+    background-color: #008C45;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    max-width: 200px;
+    font-size: 18px;
+}
+ 
+a[href="../index.html"]:hover {
+    background-color: #006633;
+}
