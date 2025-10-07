@@ -9,14 +9,17 @@ h1 {
     text-align: center;
     color: #2c3e50;
     font-size: 48px;
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
     text-transform: uppercase;
     letter-spacing: 2px;
+    border-bottom: 4px solid #CD212A;
+    padding-bottom: 16px;
+    max-width: fit-content;
 }
 
 h2 {
     font-size: 32px;
-    color: #2c3e50;
+    color: #CD212A;
     margin-top: 40px;
     max-width: 800px;
     margin-left: auto;
@@ -48,7 +51,7 @@ img {
 }
 
 .recipe-list li {
-    background-color: white;
+    background-color: #F4F5F0;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -85,7 +88,7 @@ ul {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px 40px;
-    background-color: white;
+    background-color: #F4F5F0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-left: 4px solid #008C45;
@@ -101,7 +104,7 @@ ol {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px 40px;
-    background-color: white;
+    background-color: #F4F5F0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-left: 4px solid #008C45;
@@ -114,13 +117,17 @@ ol li {
     color: #333;
 }
 
+ol li strong {
+    color: #CD212A;
+}
+
 a[href="../index.html"] {
     display: block;
     text-align: center;
     margin: 40px auto;
     padding: 12px 24px;
     background-color: #008C45;
-    color: white;
+    color: #F4F5F0;
     text-decoration: none;
     border-radius: 8px;
     max-width: 200px;
